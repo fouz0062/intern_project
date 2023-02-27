@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="header">
+        <div class="header-logo">
+          <img src="../assets/logo-white.png" alt="logo" />
+        </div>
+        <div class="header-menu" id="menu-list">
+          <div><i class="fa-solid fa-x" id="close"></i></div>
+          <div>
+            <div>
+              <input type="search" placeholder="search" />
+            </div>
+            <div>
+              <img src="../assets/icons/linkedin-white.svg" alt="" />
+              <img src="../assets/icons/twitter-white.svg" alt="" />
+              <img src="../assets/icons/instagram-white.svg" alt="" />
+              <img src="../assets/icons/facebook-white.svg" alt="" />
+            </div>
+          </div>
+          <div class="header-menu-list">
+            <ul>
+              <li>About us</li>
+              <li>Events</li>
+              <li>Nordic roaster</li>
+              <li>Results</li>
+              <li>links</li>
+              <li>contact</li>
+            </ul>
+          </div>
+        </div>
+        <div class="search-icon">
+          <i class="fa-solid fa-magnifying-glass" id="searchIcon"></i>
+        </div>
+        <div class="search-icon-div" id="searchDisplay">
+          <i class="fa-solid fa-x" id="search-close"></i>
+          <div><input type="search" placeholder="search" /></div>
+          <div>
+            <h3>Wonderful Copenhagen 2021</h3>
+            <span>Published on 12/07/2021</span>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea,
+              iusto!..
+            </p>
+          </div>
+          <div>
+            <h3>Wonderful Copenhagen 2021</h3>
+            <span>Published on 12/07/2021</span>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea,
+              iusto!..
+            </p>
+          </div>
+          <div>
+            <h3>Wonderful Copenhagen 2021</h3>
+            <span>Published on 12/07/2021</span>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea,
+              iusto!..
+            </p>
+          </div>
+        </div>
+        <div class="burger-icon-menu">
+          <i class="fa-solid fa-bars" id="menu"></i>
+        </div>
+      </div>
+    </header>
+    <div style="display: block">
+      <!-- Carousal part -->
+      <div
+        id="carouselExampleInterval"
+        class="carousel slide slide-img"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="1000">
+            <img
+              src="../assets/slides/slide1.jpg"
+              class="d-block w-100"
+              alt="slide1"
+            />
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img
+              src="../assets/slides/slide2.jpg"
+              class="d-block w-100"
+              alt="slide1"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="../assets/slides/slide3.jpg"
+              class="d-block w-100"
+              alt="slide1"
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleInterval"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleInterval"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+
+        <div class="carousel-sticker">
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
+          suscipit fuga dignissimos atque ullam magnam."
+        </div>
+      </div>
+
+      <!-- Posts part -->
+      <div class="post">
+        <div class="post-part-1">
+          <div>
+            <div>
+              <div>
+                <img
+                  src="../assets/images/posts/Post thumbnail-1.png"
+                  alt="post 1"
+                />
+              </div>
+              <div>
+                <h3>Wonderful Copenhagen 2021</h3>
+                <span>Published 12/07/2021</span>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Consequuntur natus in dignissimos, voluptate doloremque
+                  excepturi rem numquam delectus corrupti ex!
+                </p>
+                <button>Read More</button>
+              </div>
+            </div>
+            <div>
+              <div>
+                <img
+                  src="../assets/images/posts/Post thumbnail-2.png"
+                  alt="post 2"
+                />
+              </div>
+              <div>
+                <h3>The most expensive coffee on the market</h3>
+                <span>Published 12/07/2021</span>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Consequuntur natus in dignissimos, voluptate doloremque
+                  excepturi rem numquam delectus corrupti ex!
+                </p>
+                <button>Read More</button>
+              </div>
+            </div>
+            <div>
+              <div>
+                <img
+                  src="../assets/images/posts/Post thumbnail-3.png"
+                  alt="post 3"
+                />
+              </div>
+              <div>
+                <h3>10 types of coffee beans you need to know</h3>
+                <span>Published 12/07/2021</span>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Consequuntur natus in dignissimos, voluptate doloremque
+                  excepturi rem numquam delectus corrupti ex!
+                </p>
+                <button>Read More</button>
+              </div>
+            </div>
+            <div>
+              <div>
+                <img
+                  src="../assets/images/posts/Post thumbnail-4.png"
+                  alt="post 4"
+                />
+              </div>
+              <div>
+                <h3>Challenge your barista skills to the max</h3>
+                <span>Published 12/07/2021</span>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Consequuntur natus in dignissimos, voluptate doloremque
+                  excepturi rem numquam delectus corrupti ex!
+                </p>
+                <button>Read More</button>
+              </div>
+            </div>
+          </div>
+          <div class="post-part-1-pagination">
+            <button>Previous</button>
+            <span>Page 1 of 3</span>
+            <button>Next</button>
+          </div>
+        </div>
+        <div class="post-part2">
+          <div>
+            <h3>WBC Shop</h3>
+            <p>Your shopping cart is empty</p>
+            <button>Visit the shop</button>
+          </div>
+          <div>
+            <h3>Next Event</h3>
+            <h4>World Barista Cup 2021</h4>
+            <p>Copenhagen, Denmark</p>
+            <p>Dates: 25th - 27th August 2011</p>
+            <p>Theme : Sensory</p>
+            <button>Sign up Now</button>
+          </div>
+          <div>
+            <h3>Score Board</h3>
+            <h4>List of winners from last year</h4>
+            <div>
+              <p>2021 - ?</p>
+              <p>2020 - Denmark</p>
+              <p>2019 - Sweden</p>
+              <button>Load More</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- logos part -->
+      <div class="sponsors">
+        <h2>nordic barista cup sponsers</h2>
+        <div>
+          <img
+            src="../assets/images/sponsors/sponsor-1.png"
+            alt="sponsor logo"
+          />
+          <img
+            src="../assets/images/sponsors/sponsor-2.png"
+            alt="sponsor logo"
+          />
+          <img
+            src="../assets/images/sponsors/sponsor-3.png"
+            alt="sponsor logo"
+          />
+          <img
+            src="../assets/images/sponsors/sponsor-4.png"
+            alt="sponsor logo"
+          />
+          <img
+            src="../assets/images/sponsors/sponsor-5.png"
+            alt="sponsor logo"
+          />
+          <img
+            src="../assets/images/sponsors/sponsor-6.png"
+            alt="sponsor logo"
+          />
+          <img
+            src="../assets/images/sponsors/sponsor-7.png"
+            alt="sponsor logo"
+          />
+          <img
+            src="../assets/images/sponsors/sponsor-8.png"
+            alt="sponsor logo"
+          />
+          <img
+            src="../assets/images/sponsors/sponsor-9.png"
+            alt="sponsor logo"
+          />
+          <img
+            src="../assets/images/sponsors/sponsor-10.png"
+            alt="sponsor logo"
+          />
+          <img
+            src="../assets/images/sponsors/sponsor-11.png"
+            alt="sponsor logo"
+          />
+          <img
+            src="../assets/images/sponsors/sponsor-12.png"
+            alt="sponsor logo"
+          />
+          <img
+            src="../assets/images/sponsors/sponsor-13.png"
+            alt="sponsor logo"
+          />
+          <img
+            src="../assets/images/sponsors/sponsor-14.png"
+            alt="sponsor logo"
+          />
+          <img
+            src="../assets/images/sponsors/sponsor-15.png"
+            alt="sponsor logo"
+          />
+          <img
+            src="../assets/images/sponsors/sponsor-16.png"
+            alt="sponsor logo"
+          />
+          <img
+            src="../assets/images/sponsors/sponsor-17.png"
+            alt="sponsor logo"
+          />
+          <img
+            src="../assets/images/sponsors/sponsor-18.png"
+            alt="sponsor logo"
+          />
+          <img
+            src="../assets/images/sponsors/sponsor-19.png"
+            alt="sponsor logo"
+          />
+          <img
+            src="../assets/images/sponsors/sponsor-20.png"
+            alt="sponsor logo"
+          />
+        </div>
+      </div>
+    </div>
+    <footer style="display: block">
+      <div>
+        <div>
+          <img src="../assets/logo-white.png" alt="logo" />
+        </div>
+        <div class="footer-icons">
+          <img src="../assets/icons/linkedin-white.svg" alt="linkedin icon" />
+          <img src="../assets/icons/facebook-white.svg" alt="linkedin icon" />
+          <img src="../assets/icons/instagram-white.svg" alt="linkedin icon" />
+          <img src="../assets/icons/twitter-white.svg" alt="linkedin icon" />
+        </div>
+      </div>
+      <div>
+        <div class="footer-about">
+          <h3>About World Barista Cup</h3>
+          <span>The vision within the world barista cup</span>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias
+            dolore nemo veritatis corrupti. Nemo ipsam nisi rerum voluptatem
+            cumque minus?
+          </p>
+        </div>
+        <div class="insta-feed">
+          <h2>Instagram feed</h2>
+          <div>
+            <img
+              src="../assets/images/instagram-feed/instagram-image-1.png"
+              alt="insta post 1"
+            />
+            <img
+              src="../assets/images/instagram-feed/instagram-image-2.png"
+              alt="insta post 2"
+            />
+            <img
+              src="../assets/images/instagram-feed/instagram-image-3.png"
+              alt="insta post 3"
+            />
+            <img
+              src="../assets/images/instagram-feed/instagram-image-4.png"
+              alt="insta post 4"
+            />
+            <img
+              src="../assets/images/instagram-feed/instagram-image-5.png"
+              alt="insta post 5"
+            />
+            <img
+              src="../assets/images/instagram-feed/instagram-image-6.png"
+              alt="insta post 6"
+            />
+            <img
+              src="../assets/images/instagram-feed/instagram-image-7.png"
+              alt="insta post 7"
+            />
+            <img
+              src="../assets/images/instagram-feed/instagram-image-8.png"
+              alt="insta post 8"
+            />
+            <img
+              src="../assets/images/instagram-feed/instagram-image-9.png"
+              alt="insta post 9"
+            />
+          </div>
+        </div>
+        <div class="footer-contact">
+          <h3>Contact</h3>
+          <p>World Barista Cup</p>
+          <div>
+            <p>Amargtov 13</p>
+            <p>1160 Copenhagen k</p>
+            <p>+45 33 12 04 28</p>
+            <p>CVR: 1142708</p>
+            <p>Email: infor@worldbaristacup.com</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/scripts.js"></script>
+  </body>
+</html>
